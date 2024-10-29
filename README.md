@@ -2,50 +2,6 @@
 
 [English](#english) | [中文](#中文)
 
-## English
-
-### Introduction
-OpenInna is a Safari extension that allows you to open videos directly in IINA player from your browser. It provides a convenient way to watch online videos using IINA's powerful playback features.
-
-### Features
-- Right-click menu integration
-- Support for various video platforms:
-  - YouTube
-  - Bilibili
-  - Other websites with video content
-- Clean and simple interface
-- Native macOS integration
-
-### Requirements
-- macOS 10.15 or later
-- Safari 14 or later
-- IINA player installed
-
-### Installation
-1. Download the latest release
-2. Double click to install
-3. Open Safari Preferences
-4. Go to Extensions tab
-5. Enable OpenInna extension
-
-### Usage
-1. Visit any webpage with video content
-2. Right-click on the page
-3. Select "Open Current Page in IINA"
-4. The video will open in IINA player
-
-### Known Issues
-- Some websites may not work due to their video player implementation
-- YouTube-dl/yt-dlp needs to be properly configured in IINA
-
-### Support
-If you encounter any issues or have suggestions, please:
-- Open an issue on GitHub
-- Provide detailed information about the problem
-- Include steps to reproduce the issue
-
----
-
 ## 中文
 
 ### 简介
@@ -98,3 +54,47 @@ MIT License
   - Initial release
   - Basic video platform support
   - Right-click menu integration 
+
+---
+## English
+
+### Introduction
+OpenInna is a Safari extension that allows you to open videos directly in IINA player from your browser. It provides a convenient way to watch online videos using IINA's powerful playback features.
+
+### Features
+- Right-click menu integration
+- Support for various video platforms:
+  - YouTube
+  - Bilibili
+  - Other websites with video content
+- Clean and simple interface
+- Native macOS integration
+
+### Requirements
+- macOS 10.15 or later
+- Safari 14 or later
+- IINA player installed
+
+### Installation
+1. Download the latest release
+2. Double click to install
+3. Open Safari Preferences
+4. Go to Extensions tab
+5. Enable OpenInna extension
+
+### Usage
+1. Visit any webpage with video content
+2. Right-click on the page
+3. Select "Open Current Page in IINA"
+4. The video will open in IINA player
+
+### Known Issues
+- Some websites may not work due to their video player implementation
+- YouTube-dl/yt-dlp needs to be properly configured in IINA
+
+### Support
+If you encounter any issues or have suggestions, please:
+- Open an issue on GitHub
+- Provide detailed information about the problem
+- Include steps to reproduce the issue
+
