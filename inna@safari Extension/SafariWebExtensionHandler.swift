@@ -8,16 +8,20 @@ import Foundation
 import SafariServices
 import os.log
 
+// Safari Web 扩展处理类
 class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
+    
+    // 处理扩展请求的方法
     func beginRequest(with context: NSExtensionContext) {
+        // 获取输入项（来自 JavaScript 的消息）
         let item = context.inputItems[0] as! NSExtensionItem
         
-        let message = item.userInfo?[SFExtensionMessageKey]
-        os_log(.default, "Received message from browser.runtime.sendMessage: %@", message as! CVarArg)
-        
+        // 创建响应项
         let response = NSExtensionItem()
-        response.userInfo = [ SFExtensionMessageKey: [ "Response": "Received" ] ]
         
+        // 完成请求处理
+        // 参数1: 返回的项目数组
+        // 参数2: 完成回调（这里为空）
         context.completeRequest(returningItems: [response], completionHandler: nil)
     }
 }
