@@ -9,5 +9,11 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariWebExtensionHandler</string>
 	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>OpenInna</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.wangdaodao.openiina@safari</string>
+	<key>CFBundleName</key>
+	<string>OpenInna</string>
 </dict>
 </plist>

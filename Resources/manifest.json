@@ -3,21 +3,14 @@
     "name": "OpenInna",
     "version": "1.0",
     "description": "Open videos in IINA player",
-    "default_locale": "zh_CN", 
+    "default_locale": "zh_CN",
     "permissions": [
         "activeTab",
         "tabs",
-        "contextMenus",
-        "<all_urls>",
-        "scripting"
+        "contextMenus"
     ],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
-    },
-    "content_scripts": [{
-        "matches": ["<all_urls>"],
-        "js": ["content.js"],
-        "all_frames": true
-    }]
-}
+    }
+} 

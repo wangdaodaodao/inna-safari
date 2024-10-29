@@ -1,10 +1,3 @@
-//
-//  SafariWebExtensionHandler.swift
-//  inna@safari Extension
-//
-//  Created by 王导导 on 10/29/24.
-//
-import Foundation
 import SafariServices
 import os.log
 
@@ -20,4 +13,4 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         
         context.completeRequest(returningItems: [response], completionHandler: nil)
     }
-}
+} 
