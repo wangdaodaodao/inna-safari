@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B40A2B92CD0F3620039FBF6 /* inna@safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4B40A2B82CD0F3620039FBF6 /* inna@safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B40A2A32CD0F3620039FBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B40A27E2CD0F3610039FBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B40A2852CD0F3610039FBF6;
+			remoteInfo = "inna@safari";
+		};
+		4B40A2AD2CD0F3620039FBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B40A27E2CD0F3610039FBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B40A2852CD0F3610039FBF6;
+			remoteInfo = "inna@safari";
+		};
+		4B40A2BA2CD0F3620039FBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B40A27E2CD0F3610039FBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B40A2B72CD0F3620039FBF6;
+			remoteInfo = "inna@safari Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B40A2D82CD0F3620039FBF6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B40A2B92CD0F3620039FBF6 /* inna@safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B40A2862CD0F3610039FBF6 /* inna@safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inna@safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B40A2A22CD0F3620039FBF6 /* inna@safariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inna@safariTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B40A2AC2CD0F3620039FBF6 /* inna@safariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "inna@safariUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B40A2B82CD0F3620039FBF6 /* inna@safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "inna@safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4B40A2D22CD0F3620039FBF6 /* Exceptions for "inna@safari Extension" folder in "inna@safari Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4B40A2B72CD0F3620039FBF6 /* inna@safari Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B40A2882CD0F3610039FBF6 /* inna@safari */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "inna@safari";
+			sourceTree = "<group>";
+		};
+		4B40A2A52CD0F3620039FBF6 /* inna@safariTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "inna@safariTests";
+			sourceTree = "<group>";
+		};
+		4B40A2AF2CD0F3620039FBF6 /* inna@safariUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "inna@safariUITests";
+			sourceTree = "<group>";
+		};
+		4B40A2BC2CD0F3620039FBF6 /* inna@safari Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4B40A2D22CD0F3620039FBF6 /* Exceptions for "inna@safari Extension" folder in "inna@safari Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "inna@safari Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B40A2832CD0F3610039FBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A29F2CD0F3620039FBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A2A92CD0F3620039FBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A2B52CD0F3620039FBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B40A27D2CD0F3610039FBF6 = {
+			isa = PBXGroup;
+			children = (
+				4B40A2882CD0F3610039FBF6 /* inna@safari */,
+				4B40A2A52CD0F3620039FBF6 /* inna@safariTests */,
+				4B40A2AF2CD0F3620039FBF6 /* inna@safariUITests */,
+				4B40A2BC2CD0F3620039FBF6 /* inna@safari Extension */,
+				4B40A2872CD0F3610039FBF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B40A2872CD0F3610039FBF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B40A2862CD0F3610039FBF6 /* inna@safari.app */,
+				4B40A2A22CD0F3620039FBF6 /* inna@safariTests.xctest */,
+				4B40A2AC2CD0F3620039FBF6 /* inna@safariUITests.xctest */,
+				4B40A2B82CD0F3620039FBF6 /* inna@safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B40A2852CD0F3610039FBF6 /* inna@safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B40A2D92CD0F3620039FBF6 /* Build configuration list for PBXNativeTarget "inna@safari" */;
+			buildPhases = (
+				4B40A2822CD0F3610039FBF6 /* Sources */,
+				4B40A2832CD0F3610039FBF6 /* Frameworks */,
+				4B40A2842CD0F3610039FBF6 /* Resources */,
+				4B40A2D82CD0F3620039FBF6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B40A2BB2CD0F3620039FBF6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B40A2882CD0F3610039FBF6 /* inna@safari */,
+			);
+			name = "inna@safari";
+			packageProductDependencies = (
+			);
+			productName = "inna@safari";
+			productReference = 4B40A2862CD0F3610039FBF6 /* inna@safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B40A2A12CD0F3620039FBF6 /* inna@safariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B40A2DC2CD0F3620039FBF6 /* Build configuration list for PBXNativeTarget "inna@safariTests" */;
+			buildPhases = (
+				4B40A29E2CD0F3620039FBF6 /* Sources */,
+				4B40A29F2CD0F3620039FBF6 /* Frameworks */,
+				4B40A2A02CD0F3620039FBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B40A2A42CD0F3620039FBF6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B40A2A52CD0F3620039FBF6 /* inna@safariTests */,
+			);
+			name = "inna@safariTests";
+			packageProductDependencies = (
+			);
+			productName = "inna@safariTests";
+			productReference = 4B40A2A22CD0F3620039FBF6 /* inna@safariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B40A2AB2CD0F3620039FBF6 /* inna@safariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B40A2DF2CD0F3620039FBF6 /* Build configuration list for PBXNativeTarget "inna@safariUITests" */;
+			buildPhases = (
+				4B40A2A82CD0F3620039FBF6 /* Sources */,
+				4B40A2A92CD0F3620039FBF6 /* Frameworks */,
+				4B40A2AA2CD0F3620039FBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B40A2AE2CD0F3620039FBF6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B40A2AF2CD0F3620039FBF6 /* inna@safariUITests */,
+			);
+			name = "inna@safariUITests";
+			packageProductDependencies = (
+			);
+			productName = "inna@safariUITests";
+			productReference = 4B40A2AC2CD0F3620039FBF6 /* inna@safariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4B40A2B72CD0F3620039FBF6 /* inna@safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B40A2D32CD0F3620039FBF6 /* Build configuration list for PBXNativeTarget "inna@safari Extension" */;
+			buildPhases = (
+				4B40A2B42CD0F3620039FBF6 /* Sources */,
+				4B40A2B52CD0F3620039FBF6 /* Frameworks */,
+				4B40A2B62CD0F3620039FBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4B40A2BC2CD0F3620039FBF6 /* inna@safari Extension */,
+			);
+			name = "inna@safari Extension";
+			packageProductDependencies = (
+			);
+			productName = "inna@safari Extension";
+			productReference = 4B40A2B82CD0F3620039FBF6 /* inna@safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B40A27E2CD0F3610039FBF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4B40A2852CD0F3610039FBF6 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					4B40A2A12CD0F3620039FBF6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4B40A2852CD0F3610039FBF6;
+					};
+					4B40A2AB2CD0F3620039FBF6 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4B40A2852CD0F3610039FBF6;
+					};
+					4B40A2B72CD0F3620039FBF6 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 4B40A2812CD0F3610039FBF6 /* Build configuration list for PBXProject "inna@safari" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B40A27D2CD0F3610039FBF6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B40A2872CD0F3610039FBF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B40A2852CD0F3610039FBF6 /* inna@safari */,
+				4B40A2A12CD0F3620039FBF6 /* inna@safariTests */,
+				4B40A2AB2CD0F3620039FBF6 /* inna@safariUITests */,
+				4B40A2B72CD0F3620039FBF6 /* inna@safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B40A2842CD0F3610039FBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A2A02CD0F3620039FBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A2AA2CD0F3620039FBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A2B62CD0F3620039FBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B40A2822CD0F3610039FBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A29E2CD0F3620039FBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A2A82CD0F3620039FBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B40A2B42CD0F3620039FBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B40A2A42CD0F3620039FBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B40A2852CD0F3610039FBF6 /* inna@safari */;
+			targetProxy = 4B40A2A32CD0F3620039FBF6 /* PBXContainerItemProxy */;
+		};
+		4B40A2AE2CD0F3620039FBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B40A2852CD0F3610039FBF6 /* inna@safari */;
+			targetProxy = 4B40A2AD2CD0F3620039FBF6 /* PBXContainerItemProxy */;
+		};
+		4B40A2BB2CD0F3620039FBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B40A2B72CD0F3620039FBF6 /* inna@safari Extension */;
+			targetProxy = 4B40A2BA2CD0F3620039FBF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B40A2D42CD0F3620039FBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "inna@safari Extension/inna_safari_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXNG2Z8P87;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "inna@safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "inna@safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangdaodao.iinasafari.inna-safari.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4B40A2D52CD0F3620039FBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "inna@safari Extension/inna_safari_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXNG2Z8P87;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "inna@safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "inna@safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangdaodao.iinasafari.inna-safari.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4B40A2D62CD0F3620039FBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B40A2D72CD0F3620039FBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4B40A2DA2CD0F3620039FBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "inna@safari/inna@safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXNG2Z8P87;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "inna@safari";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangdaodao.iinasafari.inna-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4B40A2DB2CD0F3620039FBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "inna@safari/inna@safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXNG2Z8P87;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "inna@safari";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangdaodao.iinasafari.inna-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4B40A2DD2CD0F3620039FBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXNG2Z8P87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangdaodao.iinasafari.inna-safariTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inna@safari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/inna@safari";
+			};
+			name = Debug;
+		};
+		4B40A2DE2CD0F3620039FBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXNG2Z8P87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangdaodao.iinasafari.inna-safariTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inna@safari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/inna@safari";
+			};
+			name = Release;
+		};
+		4B40A2E02CD0F3620039FBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXNG2Z8P87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangdaodao.iinasafari.inna-safariUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "inna@safari";
+			};
+			name = Debug;
+		};
+		4B40A2E12CD0F3620039FBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXNG2Z8P87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangdaodao.iinasafari.inna-safariUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "inna@safari";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B40A2812CD0F3610039FBF6 /* Build configuration list for PBXProject "inna@safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B40A2D62CD0F3620039FBF6 /* Debug */,
+				4B40A2D72CD0F3620039FBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B40A2D32CD0F3620039FBF6 /* Build configuration list for PBXNativeTarget "inna@safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B40A2D42CD0F3620039FBF6 /* Debug */,
+				4B40A2D52CD0F3620039FBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B40A2D92CD0F3620039FBF6 /* Build configuration list for PBXNativeTarget "inna@safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B40A2DA2CD0F3620039FBF6 /* Debug */,
+				4B40A2DB2CD0F3620039FBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B40A2DC2CD0F3620039FBF6 /* Build configuration list for PBXNativeTarget "inna@safariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B40A2DD2CD0F3620039FBF6 /* Debug */,
+				4B40A2DE2CD0F3620039FBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B40A2DF2CD0F3620039FBF6 /* Build configuration list for PBXNativeTarget "inna@safariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B40A2E02CD0F3620039FBF6 /* Debug */,
+				4B40A2E12CD0F3620039FBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B40A27E2CD0F3610039FBF6 /* Project object */;
+}
