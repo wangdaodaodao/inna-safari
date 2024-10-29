@@ -3,7 +3,7 @@
     "name": "OpenInna",
     "version": "1.0",
     "description": "Open videos in IINA player",
-    "default_locale": "zh_CN", 
+    "default_locale": "zh_CN",
     "permissions": [
         "activeTab",
         "tabs",
@@ -19,10 +19,6 @@
         "matches": ["<all_urls>"],
         "js": ["content.js"],
         "all_frames": true
-    }],
-    "icons": {
-        "48": "images/icon-48.png",
-        "96": "images/icon-96.png",
-        "128": "images/icon-128.png"
-    }
+    }]
+    
 }

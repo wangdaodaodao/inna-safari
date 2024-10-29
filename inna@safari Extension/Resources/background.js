@@ -1,7 +1,7 @@
 // 创建右键菜单项
 browser.contextMenus.create({
     id: "openInIINA",                    // 菜单项唯一标识符
-    title: "用iina播放器打开",  // 菜单项显示文本
+    title: browser.i18n.getMessage("menuTitle"),  // 菜单项显示文本
     contexts: ["all"]                    // 在所有内容上显示此菜单
 });
 

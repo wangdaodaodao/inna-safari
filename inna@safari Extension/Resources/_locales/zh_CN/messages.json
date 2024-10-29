@@ -1,6 +1,6 @@
 {
     "menuTitle": {
         "message": "用iina播放器打开",
-        "description": "Context menu item title"
+        "description": "右键菜单项标题"
     }
 }

@@ -19,5 +19,12 @@
 	<string>com.wangdaodao.openiina@safari</string>
 	<key>CFBundleName</key>
 	<string>OpenInna</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>zh_CN</string>
+	</array>
 </dict>
 </plist>
