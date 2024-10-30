@@ -2,8 +2,7 @@
     "manifest_version": 2,
     "name": "OpenInna",
     "version": "1.0",
-    "description": "Open videos in IINA player",
-    "default_locale": "zh_CN",
+    "description": "Open Video in IINA Player",
     "permissions": [
         "activeTab",
         "tabs",
@@ -19,6 +18,16 @@
         "matches": ["<all_urls>"],
         "js": ["content.js"],
         "all_frames": true
-    }]
+    }],
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png"
+        }
+    }
     
 }
